@@ -57,13 +57,13 @@ public class Curso {
     public void adicionarDisciplina(Disciplina disciplina) {
         this.listaDisciplinas.add(disciplina);
     }
-    //metodo recebe uma variavel disciplina do tipo disciplina because fuck you
-//metodo define que ESSA disciplina que acabou de receber é adicionada na listaDisciplinas (que por sua vez é uma lista do tipo disciplina because super fuck you)
+    //metodo recebe uma variavel disciplina do tipo disciplina
+//metodo define que ESSA disciplina que acabou de receber é adicionada na listaDisciplinas (que por sua vez é uma lista do tipo disciplina )
     public List<Disciplina> getListaDisciplinas() {
         return listaDisciplinas;
     }
     //metodo ListaDisciplinas recebe uma lista do tipo disciplinas because giga fuck you
-//e após receber a lista retorna a variável listaDisciplinas que contém as disciplinas because omega fuck you
+//e após receber a lista retorna a variável listaDisciplinas que contém as disciplinas
     public List<Aluno> obterAlunosDoCurso() {
         return listaAlunos;
     }
